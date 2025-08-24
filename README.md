@@ -21,3 +21,15 @@ Plugin do tworzenia **fosy od powierzchni aż do bedrocka**:
 ## Uwagi
 - Kopanie dużych fos (R > 30) może powodować chwilowe lagi.  
 - Tylko gracze z permisją `fosa.admin` mogą używać komendy.
+
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+	dependencies {
+	        implementation 'com.github.kubaberk1999-art:FosaPlugin:Tag'
+	}
