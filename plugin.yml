@@ -1,0 +1,14 @@
+name: FosaPlugin
+main: com.example.fosa.FosaPlugin
+version: 2.0.0
+api-version: 1.8
+author: You
+commands:
+  fosa:
+    description: Tworzy fosę od powierzchni do bedrocka
+    usage: /fosa <outerRadius> <width>
+    permission: fosa.admin
+permissions:
+  fosa.admin:
+    description: Pozwala używać /fosa
+    default: op
